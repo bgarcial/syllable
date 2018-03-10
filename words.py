@@ -2,6 +2,7 @@
 Human Friendly Name: Syllable
 Import Friendly Name: syllable
 Package Description: Package that send a word or words set to service and get the syllabes of each phrase sent
+https://gitter.im/twoscoopspress/packaging-workshop-march10
 """
 
 from selenium import webdriver
