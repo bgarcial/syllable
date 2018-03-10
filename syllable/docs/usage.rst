@@ -2,6 +2,9 @@
 Usage
 =====
 
-To use Syllable in a project::
+To use `syllable` in a project::
 
-    import syllable
+    from syllable.syllable import sendingWords
+    sendingWords('syllable/syllable/Diccionario.txt')
+
+
