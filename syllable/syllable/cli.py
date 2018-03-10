@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from syllable.syllable.syllable import sendingWords
+
 """Console script for syllable."""
 import sys
 import click
@@ -11,6 +13,9 @@ def main(args=None):
     click.echo("Replace this message by putting your code into "
                "syllable.cli.main")
     click.echo("See click documentation at http://click.pocoo.org/")
+    # es mejor una ruta relativa usar click argument
+    # opcion en el setup
+    sendingWords('syllable/Diccionario.txt')
     return 0
 
 
